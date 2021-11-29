@@ -3,6 +3,7 @@ package com.example.recyclerview;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -26,6 +27,7 @@ public class NameAdapter extends RecyclerView.Adapter<NameAdapter.NameAdapterVie
     public void onBindViewHolder(@NonNull NameAdapter.NameAdapterViewHolder holder, int position) {
         Name name = lists.get(position);
         holder.textView.setText(name.getName());
+        holder.imageView.setImageResource(name.getImage());
 
     }
 
@@ -35,9 +37,11 @@ public class NameAdapter extends RecyclerView.Adapter<NameAdapter.NameAdapterVie
     }
     class NameAdapterViewHolder extends RecyclerView.ViewHolder{
         TextView textView;
+        ImageView imageView;
         public NameAdapterViewHolder(View itemView){
             super(itemView);
             textView = itemView.findViewById(R.id.textView);
+             imageView = itemView.findViewById(R.id.imageView);
 
         }
     }

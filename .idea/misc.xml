@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Alexander/AndroidStudioProjects/RecyclerView/app/src/main/res/drawable/ic_baseline_auto_delete_24.xml" value="0.2921875" />
         <entry key="..\:/Users/Alexander/AndroidStudioProjects/RecyclerView/app/src/main/res/layout/activity_main.xml" value="0.28532608695652173" />
         <entry key="..\:/Users/Alexander/AndroidStudioProjects/RecyclerView/app/src/main/res/layout/name.xml" value="0.36666666666666664" />
       </map>
